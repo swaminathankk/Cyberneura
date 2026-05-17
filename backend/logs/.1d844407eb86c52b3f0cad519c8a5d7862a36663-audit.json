@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "/Users/ashwath/.gemini/Cyberneura/backend/logs/.1d844407eb86c52b3f0cad519c8a5d7862a36663-audit.json",
+    "files": [
+        {
+            "date": 1779011343061,
+            "name": "/Users/ashwath/.gemini/Cyberneura/backend/logs/error-2026-05-17.log",
+            "hash": "d4bbdedd4760423089e6b9e96da9a4ba30efe2a1fe9e0e1a391a3b83a35e058b"
+        }
+    ],
+    "hashType": "sha256"
+}
