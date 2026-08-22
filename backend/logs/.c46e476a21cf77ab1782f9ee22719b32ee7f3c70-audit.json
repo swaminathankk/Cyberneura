@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/app/logs/.c46e476a21cf77ab1782f9ee22719b32ee7f3c70-audit.json",
+    "files": [
+        {
+            "date": 1786257912786,
+            "name": "/app/logs/cyberneura-2026-08-09.log",
+            "hash": "e814ff6adf71ea47d0d02c404b932d24a27f13983543372658ac8fcd78dea565"
+        }
+    ],
+    "hashType": "sha256"
+}

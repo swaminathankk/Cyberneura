@@ -6,9 +6,9 @@
     "auditLog": "/Users/ashwath/.gemini/Cyberneura/backend/logs/.3bef068059087b3696aaefc7937cc6ee49fd64ba-audit.json",
     "files": [
         {
-            "date": 1779011343059,
-            "name": "/Users/ashwath/.gemini/Cyberneura/backend/logs/cyberneura-2026-05-17.log",
-            "hash": "9fb8fb02a65784c82aeb09d47a2c5b5d401893162135e33765c838e3dce440e3"
+            "date": 1786258197697,
+            "name": "/Users/ashwath/.gemini/Cyberneura/backend/logs/cyberneura-2026-08-09.log",
+            "hash": "66e3ab228cf95e9964e8d6e63ba1ecc06fa827a56329d130d3dc867d876480c9"
         }
     ],
     "hashType": "sha256"

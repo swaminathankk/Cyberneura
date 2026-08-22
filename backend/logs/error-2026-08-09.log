@@ -1,0 +1,5 @@
+{"level":"error","message":"❌ Migration failed:","timestamp":"2026-08-09T06:49:57.718Z"}
+{"level":"error","message":"❌ Migration failed:","timestamp":"2026-08-09T06:53:53.654Z"}
+{"address":"::","code":"EADDRINUSE","errno":-48,"level":"error","message":"Uncaught Exception: listen EADDRINUSE: address already in use :::4000","port":4000,"stack":"Error: listen EADDRINUSE: address already in use :::4000\n    at Server.setupListenHandle [as _listen2] (node:net:1372:16)\n    at listenInCluster (node:net:1420:12)\n    at Server.listen (node:net:1508:7)\n    at Function.listen (/Users/ashwath/.gemini/Cyberneura/node_modules/express/lib/application.js:635:24)\n    at bootstrap (/Users/ashwath/.gemini/Cyberneura/backend/src/server.js:27:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","syscall":"listen","timestamp":"2026-08-09T07:27:06.323Z"}
+{"level":"error","message":"[phishtank] Fetch failed:","timestamp":"2026-08-09T07:30:00.681Z"}
+{"level":"error","message":"[phishtank] Fetch failed:","timestamp":"2026-08-09T07:32:04.840Z"}

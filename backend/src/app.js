@@ -58,6 +58,23 @@ function createApp() {
     app.use('/api/', rateLimiter);
 
     // ── Routes ──────────────────────────────────────────────────
+    app.get('/', (req, res) => {
+        res.status(200).json({
+            success: true,
+            service: 'CyberNeura API',
+            version: '1.0.0',
+            message: 'CyberNeura API engine is running.',
+            frontendDashboard: 'http://localhost:5173',
+            endpoints: {
+                health: '/api/v1/health',
+                scanUrl: 'POST /api/v1/scan/url',
+                scanBulk: 'POST /api/v1/scan/bulk',
+                scanEmail: 'POST /api/v1/scan/email',
+                scanHistory: 'GET /api/v1/scan/history'
+            }
+        });
+    });
+
     app.use('/api/v1/health', healthRoutes);
     app.use('/api/v1/scan', scanRoutes);
 

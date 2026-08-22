@@ -1,0 +1,65 @@
+{"level":"info","message":"🚀 Starting database migrations...","timestamp":"2026-08-09T06:49:57.700Z"}
+{"level":"error","message":"❌ Migration failed:","timestamp":"2026-08-09T06:49:57.718Z"}
+{"level":"info","message":"PostgreSQL pool closed","timestamp":"2026-08-09T06:49:57.718Z"}
+{"level":"info","message":"🚀 Starting database migrations...","timestamp":"2026-08-09T06:53:53.649Z"}
+{"level":"error","message":"❌ Migration failed:","timestamp":"2026-08-09T06:53:53.654Z"}
+{"level":"info","message":"PostgreSQL pool closed","timestamp":"2026-08-09T06:53:53.654Z"}
+{"level":"info","message":"Redis: ready","timestamp":"2026-08-09T07:27:06.286Z"}
+{"level":"info","message":"✅ Redis connected","timestamp":"2026-08-09T07:27:06.286Z"}
+{"level":"info","message":"✅ PostgreSQL connected","timestamp":"2026-08-09T07:27:06.312Z"}
+{"level":"info","message":"Redis: ready","timestamp":"2026-08-09T07:29:06.853Z"}
+{"level":"info","message":"✅ Redis connected","timestamp":"2026-08-09T07:29:06.855Z"}
+{"level":"info","message":"✅ PostgreSQL connected","timestamp":"2026-08-09T07:29:06.886Z"}
+{"level":"info","message":"[SyncWorker] Scheduling feed sync with cron: \"*/30 * * * *\"","timestamp":"2026-08-09T07:29:06.889Z"}
+{"level":"info","message":"[SyncWorker] Feed sync worker started successfully","timestamp":"2026-08-09T07:29:06.893Z"}
+{"level":"info","message":"✅ Threat feed sync worker started","timestamp":"2026-08-09T07:29:06.894Z"}
+{"level":"info","message":"🚀 CyberNeura API running on http://localhost:4000","timestamp":"2026-08-09T07:29:06.899Z"}
+{"level":"info","message":"   Environment: development","timestamp":"2026-08-09T07:29:06.899Z"}
+{"level":"info","message":"[SyncWorker] Sync cycle started (triggered by: startup)","timestamp":"2026-08-09T07:29:06.899Z"}
+{"level":"info","message":"🔄 Starting threat intelligence feed sync...","timestamp":"2026-08-09T07:29:06.900Z"}
+{"level":"info","message":"[phishtank] Starting feed fetch from: http://data.phishtank.com/data/online-valid.json","timestamp":"2026-08-09T07:29:06.900Z"}
+{"level":"info","message":"[openphish] Starting feed fetch from: https://openphish.com/feed.txt","timestamp":"2026-08-09T07:29:06.906Z"}
+{"level":"info","message":"[urlhaus] Starting feed fetch from: https://urlhaus.abuse.ch/downloads/text/","timestamp":"2026-08-09T07:29:06.942Z"}
+{"level":"info","message":"[urlhaus] Fetched 63592 malware URLs","timestamp":"2026-08-09T07:29:07.686Z"}
+{"level":"info","message":"[openphish] Fetched 300 phishing URLs","timestamp":"2026-08-09T07:29:08.204Z"}
+{"level":"info","message":"[phishtank] Fetched 70992 verified phishing URLs","timestamp":"2026-08-09T07:29:11.179Z"}
+{"level":"info","message":"Feed sync: 134866 unique URLs after deduplication (raw total: 134884)","timestamp":"2026-08-09T07:29:11.225Z"}
+{"level":"info","message":"✅ Feed sync complete: 134866 URLs cached in 5255ms","openphish":300,"phishtank":70992,"timestamp":"2026-08-09T07:29:12.157Z","urlhaus":63592}
+{"duration":"5255ms","level":"info","message":"[SyncWorker] Sync cycle complete:","openphish":300,"phishtank":70992,"timestamp":"2026-08-09T07:29:12.157Z","total":134866,"urlhaus":63592}
+{"level":"info","message":"[Scan 67a425ad-a282-4287-b0aa-b0358487a4d6] Starting scan for: http://paypal-secure-login.tk/verify?token=abc123","timestamp":"2026-08-09T07:29:40.010Z"}
+{"level":"warn","message":"[GSB] API key not configured — skipping Google Safe Browsing check","timestamp":"2026-08-09T07:29:40.026Z"}
+{"level":"info","message":"[Scan 67a425ad-a282-4287-b0aa-b0358487a4d6] Complete: score=18, level=SAFE, duration=21ms","timestamp":"2026-08-09T07:29:40.031Z"}
+{"level":"info","message":"[SyncWorker] Sync cycle started (triggered by: cron)","timestamp":"2026-08-09T07:30:00.086Z"}
+{"level":"info","message":"🔄 Starting threat intelligence feed sync...","timestamp":"2026-08-09T07:30:00.088Z"}
+{"level":"info","message":"[phishtank] Starting feed fetch from: http://data.phishtank.com/data/online-valid.json","timestamp":"2026-08-09T07:30:00.089Z"}
+{"level":"info","message":"[openphish] Starting feed fetch from: https://openphish.com/feed.txt","timestamp":"2026-08-09T07:30:00.127Z"}
+{"level":"info","message":"[urlhaus] Starting feed fetch from: https://urlhaus.abuse.ch/downloads/text/","timestamp":"2026-08-09T07:30:00.140Z"}
+{"level":"error","message":"[phishtank] Fetch failed:","timestamp":"2026-08-09T07:30:00.681Z"}
+{"level":"info","message":"[urlhaus] Fetched 63592 malware URLs","timestamp":"2026-08-09T07:30:00.752Z"}
+{"level":"info","message":"[openphish] Fetched 300 phishing URLs","timestamp":"2026-08-09T07:30:01.206Z"}
+{"level":"info","message":"Feed sync: 63892 unique URLs after deduplication (raw total: 63892)","timestamp":"2026-08-09T07:30:01.247Z"}
+{"level":"info","message":"✅ Feed sync complete: 63892 URLs cached in 1618ms","openphish":300,"phishtank":0,"timestamp":"2026-08-09T07:30:01.707Z","urlhaus":63592}
+{"duration":"1618ms","level":"info","message":"[SyncWorker] Sync cycle complete:","openphish":300,"phishtank":0,"timestamp":"2026-08-09T07:30:01.707Z","total":63892,"urlhaus":63592}
+{"level":"info","message":"Redis: ready","timestamp":"2026-08-09T07:32:03.564Z"}
+{"level":"info","message":"✅ Redis connected","timestamp":"2026-08-09T07:32:03.565Z"}
+{"level":"info","message":"✅ PostgreSQL connected","timestamp":"2026-08-09T07:32:03.591Z"}
+{"level":"info","message":"[SyncWorker] Scheduling feed sync with cron: \"*/30 * * * *\"","timestamp":"2026-08-09T07:32:03.595Z"}
+{"level":"info","message":"[SyncWorker] Feed sync worker started successfully","timestamp":"2026-08-09T07:32:03.597Z"}
+{"level":"info","message":"✅ Threat feed sync worker started","timestamp":"2026-08-09T07:32:03.597Z"}
+{"level":"info","message":"🚀 CyberNeura API running on http://localhost:4000","timestamp":"2026-08-09T07:32:03.600Z"}
+{"level":"info","message":"   Environment: development","timestamp":"2026-08-09T07:32:03.601Z"}
+{"level":"info","message":"[SyncWorker] Sync cycle started (triggered by: startup)","timestamp":"2026-08-09T07:32:03.601Z"}
+{"level":"info","message":"🔄 Starting threat intelligence feed sync...","timestamp":"2026-08-09T07:32:03.601Z"}
+{"level":"info","message":"[phishtank] Starting feed fetch from: http://data.phishtank.com/data/online-valid.json","timestamp":"2026-08-09T07:32:03.601Z"}
+{"level":"info","message":"[openphish] Starting feed fetch from: https://openphish.com/feed.txt","timestamp":"2026-08-09T07:32:03.607Z"}
+{"level":"info","message":"[urlhaus] Starting feed fetch from: https://urlhaus.abuse.ch/downloads/text/","timestamp":"2026-08-09T07:32:03.673Z"}
+{"level":"info","message":"[urlhaus] Fetched 63592 malware URLs","timestamp":"2026-08-09T07:32:04.149Z"}
+{"level":"info","message":"[openphish] Fetched 300 phishing URLs","timestamp":"2026-08-09T07:32:04.590Z"}
+{"level":"error","message":"[phishtank] Fetch failed:","timestamp":"2026-08-09T07:32:04.839Z"}
+{"level":"info","message":"Feed sync: 63892 unique URLs after deduplication (raw total: 63892)","timestamp":"2026-08-09T07:32:04.884Z"}
+{"level":"info","message":"✅ Feed sync complete: 63892 URLs cached in 1737ms","openphish":300,"phishtank":0,"timestamp":"2026-08-09T07:32:05.340Z","urlhaus":63592}
+{"duration":"1737ms","level":"info","message":"[SyncWorker] Sync cycle complete:","openphish":300,"phishtank":0,"timestamp":"2026-08-09T07:32:05.340Z","total":63892,"urlhaus":63592}
+{"level":"info","message":"[Scan 99fe2572-2295-40ca-b9b0-0f9801b5a8ba] Starting scan for: https://web.whatsapp.com/","timestamp":"2026-08-09T07:33:35.128Z"}
+{"level":"warn","message":"[GSB] API key not configured — skipping Google Safe Browsing check","timestamp":"2026-08-09T07:33:35.136Z"}
+{"level":"info","message":"[Scan 99fe2572-2295-40ca-b9b0-0f9801b5a8ba] Complete: score=0, level=SAFE, duration=12ms","timestamp":"2026-08-09T07:33:35.137Z"}
+{"level":"info","message":"Received SIGTERM. Shutting down gracefully...","timestamp":"2026-08-09T07:34:39.789Z"}
